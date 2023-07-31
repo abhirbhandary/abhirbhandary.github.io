@@ -233,6 +233,20 @@
 					});
 
 				});
+			// Hower Code
+			$(document).ready(function()
+				{
+					$("#imgDino").hover(
+						function()
+						{
+							$(this).attr("src", "images/Resume_gif.gif");
+						},
+						function()
+						{
+							$(this).attr("src", "images/screenshot.png");
+						}                         
+					);                  
+				});
 
 			// Hide intro on scroll (<= small).
 				breakpoints.on('<=small', function() {
